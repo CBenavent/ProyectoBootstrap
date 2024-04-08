@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #699289;
+}
+
+header{
+    background-image: url(./Assets/Íconos/BallenaVerdeIcono.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.navColor{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navColor2{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.sombrasTxt{
+    text-shadow: 2px 2px 3px #2b4941;
+}
+
+.sombrasTxtVioleta{
+    text-shadow: 2px 2px 3px #667091;
+}
+
+h1,h2{
+    font-weight: 600;
+}
+
+#font-h1{
+margin-top: 11rem;
+}
+
+.navbar-toggler{
+    border: none;
+} 
+
+.cont-scroll{
+    height: 250px;
+    overflow-y: auto;
+}
+
+.colVerde{
+   background-color: #8DB7AE;
+}
+
+.colVioleta{
+    background-color: #9EAEE0;
+}
+
+.colVioletaOscuro{
+    background-color: #8a98c2;
+}
+
+.colVerdeOscuro{
+    background-color: #699289;
+}
+
+@media (min-width: 1024px) {
+.slide{
+    width: 700px;
+
+}
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+} 
+
+.textoPeq {
+    font-size: 0.8rem; 
+}
+

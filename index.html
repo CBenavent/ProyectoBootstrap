@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <noscript>
+        Este sitio utiliza JavaScript si aparece este mensaje en su navegador habilitelo para su correcto funcionamiento.
+    </noscript>
+    <header id="inicio" class="vh-100 px-0">
+        <nav class="navbar navbar-expand-md justify-content-end fixed-top navColor">
+            <div class="container-fluid">
+                <p class="sombrasTxt navbar-brand fw-bold m-0 justify-content-sm-center">FAUNA NATIVA</p>            
+                <button class="navbar-toggler p-1" data-bs-toggle="collapse" data-bs-target="#mDesplegable" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" fill="#ffffff" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end text-end" id="mDesplegable">
+                    <a href="#inicio" class="text-decoration-none mx-2 sombrasTxtNegra">HOME</a>
+                    <a href="#clasificacion" class="text-decoration-none mx-2 sombrasTxtNegra">CLASIFICACIÓN</a>
+                    <a href="#ecorregiones" class="text-decoration-none mx-2 sombrasTxtNegra">ECORREGIONES</a>
+                    <a href="#imagenes" class="text-decoration-none mx-2 sombrasTxtNegra">IMÁGENES</a>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex h-75 align-items-center">
+            <h1 id="font-h1" class="text-center text-md-end w-100 fs-1 fs-md-5">
+                 SITIO INFORMATIVO<br>SOBRE LA FAUNA<br>NATIVA DE ARGENTINA
+            </h1>
+        </div>
+    </header>
+    <main>
+        <section id="clasificacion" class="colVerde">
+            <h2 class="sombrasTxt text-center p-2">¿CÓMO SE CLASIFICAN LOS ANIMALES?</h2>
+            <p class="p-2 text-center">Los animales se pueden clasificar de diversas maneras, dependiendo de los criterios que se utilicen. Estas son algunas de las principales formas de clasificarlos:</p>
+        
+            <div class="p-3 colVerdeOscuro">
+                <div class="p-2 m-2 rounded colVioletaOscuro shadow-sm">
+                    <h5 class="text-center sombrasTxtVioleta">Por presencia o ausencia de columna vertebral</h5> 
+                    <p class="p-3 text-center">Se dividen en vertebrados e invertebrados.Los vertebrados son aquellos animales que tienen columna vertebral, como mamíferos, aves, reptiles, anfibios y peces. Los invertebrados, por otro lado, carecen de columna vertebral y abarcan una amplia variedad de grupos, como insectos, arácnidos, moluscos y otros.</p>
+                </div>
+            <div class="p-2 m-2 rounded colVioletaOscuro shadow-sm">        
+                <h5 class="sombrasTxtVioleta text-center">Por grupos taxonómicos</h5> 
+                <p class="p-3 text-center">Los animales se pueden clasificar en distintos grupos taxonómicos, siguiendo la taxonomía de Linneo. Estos grupos incluyen reinos (como Animalia), filos (como Chordata para vertebrados), clases, órdenes, familias, géneros y especies.</p>
+            </div>
+            <div class="p-2 m-2 rounded colVioletaOscuro shadow-sm">
+                <h5 class="sombrasTxtVioleta text-center">Por hábitat</h5>
+                <p class="p-3 text-center">Los animales también pueden clasificarse según el tipo de hábitat en el que viven, como animales terrestres, acuáticos (ya sea de agua dulce o salada) o aéreos.</p>
+            </div>
+            <div class="p-2 m-2 rounded colVioletaOscuro shadow-sm">   
+                <h5 class="sombrasTxtVioleta text-center">Por dieta</h5>
+                <p class="p-3 text-center">Se pueden clasificar en herbívoros (que se alimentan principalmente de plantas), carnívoros (que se alimentan de otros animales), omnívoros (que comen tanto plantas como animales) y detritívoros (que se alimentan de materia orgánica en descomposición).</p>
+            </div>
+            <div class="p-2 m-2 rounded colVioletaOscuro shadow-sm">
+                <h5 class="sombrasTxtVioleta text-center">Por reproducción</h5>
+                <p class="p-3 text-center">Los animales pueden clasificarse según su método de reproducción en ovíparos (ponen huevos), vivíparos (dan a luz crías vivas) y ovovivíparos (producen huevos que se desarrollan dentro del cuerpo materno y nacen como crías vivas).</p>
+            </div>
+        </div>
+
+        </section>
+        <section id="ecorregiones" class="container-fluid shadow">
+            <div class="row colVerde">
+                <div class="col-12 col-md-6" >
+                    <h2 class="sombrasTxt text-center order-md-1">FAUNA DE ARGENTINA</h2>
+                </div>
+                <div class="col-12 col-md-6 cont-scroll text-center order-md-3 vh-100 px-3 px-md-5">    
+                    <p>El territorio argentino incluye una gran variedad de biomas y biotopos, debido a su extensión y variedad climática condicionada por factores tan diversos como la latitud, altitudes, condiciones edafológicas, etc. Esta variedad tiene como consecuencia una importante diversidad en la fauna autóctona. Para entender la existencia de las especies animales es necesario entender cómo es la red trófica de cada ecosistema y dentro de ella, la de cada biotopo, pero en el caso de Argentina una explicación en detalle resulta casi imposible precisamente debido a su gran diversidad ecológica.<br>En efecto, la riqueza biológica de Argentina se refleja en la presencia de una amplia gama de especies endémicas y en su papel como refugio para la conservación de la biodiversidad en América del Sur. Cada región del país alberga comunidades únicas de plantas y animales, adaptadas a las condiciones particulares de su entorno. Desde las exuberantes selvas tropicales del norte hasta los áridos desiertos de la Patagonia, pasando por las vastas llanuras de la pampa y las majestuosas montañas de los Andes, Argentina ofrece un mosaico de hábitats que sustentan una sorprendente variedad de vida silvestre.</p>
+                </div>    
+                <div class="col-12 col-md-6 colVerdeOscuro">
+                    <h2 class="sombrasTxt text-center order-md-2">ECORREGIONES</h2>
+                </div>
+                <div class="col-md-6 cont-scroll colVerdeOscuro order-md-3 vh-100 px-3 px-md-5">
+                    <h5 class="text-center">Puneña y andina del noroeste:</h5>
+                    <p class="text-center">Se caracteriza por su desierto puneño, donde se encuentran especies como la chinchilla, la vicuña, el cóndor, el puma y diversas aves, como el surí de la puna.</p>
+                    <h5 class="text-center">Chaqueña:</h5>
+                    <p class="text-center">Esta región es un bioma de bosque tropical y selva de galería, donde habitan especies como el yaguareté, el puma, el ocelote, el tapir, el yurumí, la coendú y diversas aves, como el carayá y la charata.</p>
+                    <h5 class="text-center">Mesopotámica:</h5>
+                    <p class="text-center">Similar a la región chaqueña pero con mayor variedad de ictiofauna. Es hogar de especies como el ñandú, el caraú, la jacana, el lorito hablador, el tucán y la urraca de cresta alborotada.</p>    
+                    <h5 class="text-center">Pampeana:</h5>
+                    <p class="text-center">Esta región ha sufrido modificaciones significativas debido a la actividad humana. Antiguamente albergaba mamíferos como los venados de las pampas, los guanacos, los armadillos y los felinos como el yaguareté. También se encuentran aves como el hornero, las "perdices", las garzas y los loros barranqueros.</p>
+                    <h5 class="text-center">Cuyana:</h5> 
+                    <p class="text-center">Caracterizada por una fauna menos diversa que otras regiones, incluye especies como la catita, el cisne coscoroba y dos especies de flamencos.</p>
+                    <h5 class="text-center">Andinopatagónica:</h5>
+                    <p class="text-center">Esta región de la Patagonia andina es hogar de especies adaptadas a las montañas, los glaciares y los lagos de origen glaciar. Aquí se encuentran el puma, el cóndor, el águila, el gato güiña, el colo colo, el monito del monte y ciervos como el huemul y el pudú.</p>
+                    <h5 class="text-center">Patagónica extraandina:</h5>
+                    <p class="text-center">Es un bioma estepario, semidesértico y desértico. Aquí habitan el guanaco, la mara, el puma, el cóndor y otras aves como el choique.</p>
+                    <h5 class="text-center">Oceánica:</h5>
+                    <p class="text-center">Esta vasta región cubre aguas marítimas y zonas antárticas, albergando una gran diversidad de vida marina, incluyendo mamíferos marinos, peces, aves y tortugas marinas.</p>
+                    <h5 class="text-center">Subantártica:</h5>
+                    <p class="text-center">En esta región se encuentran especies adaptadas a condiciones climáticas más frías, como pingüinos, lobos marinos, focas, aves marinas y tortugas marinas.Cada una de estas ecorregiones alberga una biodiversidad única, adaptada a las condiciones ambientales particulares de cada área.</p>
+                </div>
+            </div>       
+        </section>
+    
+        <section  id="imagenes" class="vh-100 position-relative d-flex justify-content-center align-items-center shadow">
+            <div class="colVerde w-50 h-100 position-absolute top-0 start-0 order-1"></div>
+            <div class="position-absolute order-2">
+                <div id="carrusel1" class="carousel slide shadow">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Assets/Carrusel/1Cisne-de-coscoroba.jpg" class="d-block max-width-lg rounded img-fluid" alt="Cisne de Coscoroba en el agua">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">Cisne de Coscoroba</h5>
+                            <p class="sombrasTxtNegra fst-italic">Coscoroba coscoroba</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrusel/2ballena-franca-austral.jpg" class="d-block max-width-lg rounded img-fluid" alt="Ballena Franca Austral asomandose a la superficie del agua">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">Ballena Franca Austral</h5>
+                            <p class="sombrasTxtNegra fst-italic">Eubalaena australis</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrusel/3Pinguino-Magallanes.jpg" class="d-block max-width-lg rounded img-fluid" alt="grupo de pingüinos de Magallanes en la costa">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">pingüino de magallanes</h5>
+                            <p class="sombrasTxtNegra fst-italic">Spheniscus magellanicus</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrusel/4Condo-Andino.jpg" class="d-block max-width-lg rounded img-fluid" alt="cóndores andinos volando en la Cordillera de los Andes">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">cóndor andino</h5>
+                            <p class="sombrasTxtNegra fst-italic">Vultur gryphus</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrusel/5Zorro-gris.jpg" class="d-block max-width-lg rounded img-fluid" alt="Fotografía de un zorro gris">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">zorro gris</h5>
+                            <p class="sombrasTxtNegra fst-italic">Lycalopex griseus</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrusel/6coati.jpg" class="d-block max-width-lg rounded img-fluid" alt="Coatí adulto en la rama de un árbol">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">Coatí</h5>
+                            <p class="sombrasTxtNegra fst-italic">Nasua nasua</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrusel/7hornero.jpg" class="d-block max-width-lg rounded img-fluid" alt="Fotografía de un hornero">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">Hornero</h5>
+                            <p class="sombrasTxtNegra fst-italic">Furnarius rufus</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrusel/8Ciervo-de-los-pantanos.jpg" class="d-block max-width-lg rounded img-fluid" alt="Fotografía de Ciervo de los Pantanos">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="sombrasTxtNegra text-uppercase">Ciervo de los pantanos</h5>
+                            <p class="sombrasTxtNegra fst-italic">Blastocerus dichotomus</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrusel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer>
+            <h2 class="fw-bold text-center fs-6 py-2">FAUNA NATIVA</h2> 
+            <p class="text-center textoPeq">Sitio elaborado con fines educativos a partir de información e imágenes obtenidas en la web.</p>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>
